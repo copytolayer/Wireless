@@ -34,8 +34,8 @@
 - 공장 초기값 설정 파일:`users/goahead-2.1.1/LINUX/flash.c`
 - 시리얼 터미널에서 설정값 관련 명령어  
 `flash get MIB_XXX`  
-`flash set MIB_XXX XXX`
-`flash all`
+`flash set MIB_XXX XXX`  
+`flash all`  
 `flash allhw`
 - 공장 초기화 방법
   - WEB UI 관리자 설정->시스템 관리->설정 공장 초기화
@@ -85,7 +85,7 @@ MIBDEF(unsigned char,   web_redir_url, [40], WEB_REDIR_URL,  	STRING_T,   APMIB_
 #endif
 
 ```
-- 설정 값에 따른 Web Redirection기능 시스템에 반영: `users/goahead-2.1.1/LINUX/system/
+- 설정 값에 따른 Web Redirection기능 시스템에 반영: `users/goahead-2.1.1/LINUX/system/`
   - set_firewall.c 기능구현
 ```
 #if 1   // URL Redirect - KwanDong Univ.
